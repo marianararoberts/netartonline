@@ -5,6 +5,11 @@
     margin-left: 0px;
 }
 
+#headingImg img {
+    width: 400px;
+    height: 100px;
+    margin-left: 20px;
+}
 #departure-screen {
     width: 1000px;         
     height: 458px;      
