@@ -1,36 +1,39 @@
 #heading {
     font-style: italic;
     font-size: 100px;
+    margin: 20px;
+    margin-left: 0px;
 }
 
 #departure-screen {
-  width: 1000px;         
-  height: 465px;      
-  color: white;
-  border: 10px solid #000;
+    width: 1000px;         
+    height: 458px;      
+    color: white;
+    border: 10px solid #000;
 }
 
 .departures{
-  display: flex;
-  font-weight: bold;
-  background-color: #000;
-  font-size: 25px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    font-weight: bold;
+    background-color: #000;
+    font-size: 25px;
 }
 
 .row {
-  display: flex;
-  font-size: 20px;
-  background-color: grey;
+    display: flex;
+    font-size: 19px;
+    background-color: grey;
 }
 
 .cell {
-  width: 200px;
-  padding: 10px;
-  text-align: left;
+    width: 200px;
+    padding: 10px;
+    text-align: left;
 }
 
 .nec {
-  background-color: red;        
+    background-color: red;        
 }
 
 .njcl {
@@ -38,15 +41,18 @@
 }
 
 .amt {
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.781);
 }
 
 .delayed {
-  color: red;
-  font-weight: bold;
+    color: red;
+    font-weight: bold;
+    opacity: 0.8;
+    text-decoration: underline;
 }
 
 .boarding {
-  color: yellow;
-  font-weight: bold;
+    color: yellow;
+    font-weight: bold;
+    opacity: 0.8;
 }
