@@ -12,6 +12,13 @@
     border: 10px solid #000;
 }
 
+#toTrains {
+    width: 1500px;
+    height: 300px;
+    font-size: 50px;
+    text-align: center;
+}
+
 .departures{
     font-family: Arial, sans-serif;
     display: flex;
