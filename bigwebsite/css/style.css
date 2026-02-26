@@ -1,0 +1,52 @@
+#heading {
+    font-style: italic;
+    font-size: 100px;
+}
+
+#departure-screen {
+  width: 1000px;         
+  height: 465px;      
+  color: white;
+  border: 10px solid #000;
+}
+
+.departures{
+  display: flex;
+  font-weight: bold;
+  background-color: #000;
+  font-size: 25px;
+}
+
+.row {
+  display: flex;
+  font-size: 20px;
+  background-color: grey;
+}
+
+.cell {
+  width: 200px;
+  padding: 10px;
+  text-align: left;
+}
+
+.nec {
+  background-color: red;        
+}
+
+.njcl {
+    background-color: aqua;
+}
+
+.amt {
+    background-color: yellow;
+}
+
+.delayed {
+  color: red;
+  font-weight: bold;
+}
+
+.boarding {
+  color: yellow;
+  font-weight: bold;
+}
