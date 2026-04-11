@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: url("../redoak.jpg") no-repeat center center/cover;
+    overflow: hidden;
+}
+
+.student {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 45%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.2); 
+}
+
+.bus {
+    position: absolute;
+    bottom: 50px;
+    left: -300px;
+    width: 700px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.student:hover ~ .bus {
+    opacity: 1;
+    animation: drive 5s linear infinite;
+}
+
+@keyframes drive {
+    0% {
+        left: -300px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+.sun {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 200px;
+  height: 200px;
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
