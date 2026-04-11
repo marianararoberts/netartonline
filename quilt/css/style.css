@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: auto;
+  height: 100vh;
+}
+
+.grid div {
+  border: 4px solid white; 
+  box-sizing: border-box;
+}
+
+.red    { 
+    background: #e40303; 
+}
+.orange { 
+    background: #ff8c00
+}
+.yellow { 
+    background: #ffed00
+}
+.green  { 
+    background: #008026
+}
+.blue   { 
+    background: #004dff
+}
+.purple { 
+    background: #750787
+}
