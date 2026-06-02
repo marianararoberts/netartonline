@@ -2,26 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>(un)equal opportunity</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>(un)equal opportunity</h1>
+  <main>
+    <section id="intro">
+      <h1>(un)equal opportunity</h1>
 
-  <h2>Birth</h2>
-  <p>
-    The hospital room is bright and quiet, except for <em>tiny baby noises</em> and the hum of machines.  
-    Today, a choice sets the course of your life.  
-    <mark>Where are you born?</mark>
-  </p>
+      <button id="start-button" type="button">Begin</button>
+    </section>
 
-  <ul>
-    <li><a href="page2.html"><strong>Born into a Wealthy Household</strong></a></li>
-    <li><a href="page3.html"><strong>Born into a Poor Household</strong></a></li>
-  </ul>
+    <header id="top-section" hidden>
+      <h1>(un)equal opportunity</h1>
 
-  <p>Choose wisely.</p>
+      <div id="status-bar">
+        <span>Resources:</span>
+        <span id="resources">Unknown</span>
+      </div>
 
-  <hr>
+      <div
+        id="progress-container"
+        role="progressbar"
+        aria-label="Story progress"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        aria-valuenow="0"
+      >
+        <div id="progress"></div>
+      </div>
+    </header>
+
+    <section id="story"></section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
